@@ -1,0 +1,20 @@
+# Mac OS auto generated file
+.DS_Store
+# Windows auto generated file
+Thumbs.db
+# jetbrain IDE config directory
+.idea
+# default nohup output
+nohup.out
+
+
+# js node modules
+node_modules
+# python venv
+.venv
+# golang sum
+go.sum
+
+
+# .aa-env, .aa-update
+.aa-

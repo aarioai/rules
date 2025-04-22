@@ -1,4 +1,5 @@
 # https://github.com/aarioai/rules/blob/main/config/.gitignore
+# https://www.atlassian.com/git/tutorials/saving-changes/gitignore
 # 2025-04-22
 
 # .aa-env, .aa-update

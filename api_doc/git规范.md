@@ -5,9 +5,15 @@
 > <type>(<scope>):<subject>
 ```
 docs(tutorial/2): 添加使用说明
-fix(ae.Error): use ae.Error.Text()
+fix(core): use ae.Error.Text()
 docs: reorganize information about interpolation
 
+app
+  - app1
+  - app2
+  
+ fix(app2): catch unexpected errors
+ feat(app): sms login
 ```
 ## <type> 类型
 
@@ -35,4 +41,4 @@ docs: reorganize information about interpolation
 
 
 ## <scope> 影响范围
-比如控制层、数据层、视图层等
+比如控制层、数据层、视图层等，或者APP里面不同的子APP、demo等

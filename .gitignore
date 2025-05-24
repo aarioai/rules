@@ -1,6 +1,6 @@
 # https://github.com/aarioai/rules/blob/main/config/.gitignore
 # https://www.atlassian.com/git/tutorials/saving-changes/gitignore
-# 2025-04-22.2
+# 2025-05-15
 
 # .aa-env, .aa-update
 .aa-*
@@ -38,6 +38,9 @@ nohup.out
 
 # Compiled Python bytecode
 *.py[cod]
+
+# js package
+package-lock.json
 
 # Windows auto generated file
 Thumbs.db

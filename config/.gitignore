@@ -1,6 +1,7 @@
+# General Git Ignore File
 # https://github.com/aarioai/rules/blob/main/config/.gitignore
 # https://www.atlassian.com/git/tutorials/saving-changes/gitignore
-# 2025-05-15
+# 2025-06-17
 
 # .aa-env, .aa-update
 .aa-*

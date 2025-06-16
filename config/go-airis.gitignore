@@ -1,3 +1,14 @@
+# Golang Airis Framework Git Ignore File
+# https://github.com/aarioai/rules/blob/main/config/go-airis.gitignore
+# 2025-06-17
+
+/storage/
+
+# Golang Git Ignore File
+# https://github.com/aarioai/rules/blob/main/config/go.gitignore
+# 2025-06-17
+
+
 # General Git Ignore File
 # https://github.com/aarioai/rules/blob/main/config/.gitignore
 # https://www.atlassian.com/git/tutorials/saving-changes/gitignore

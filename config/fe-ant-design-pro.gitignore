@@ -1,8 +1,17 @@
 # Ant Design Pro
 # 2025-07-14
+build
+/coverage
+*bak
+functions/*
+
+# screenshot
 screenshot
 .firebase
-build
+
+# roadhog-api-doc ignore
+/src/utils/request-temp.js
+_roadhog-api-doc
 
 # Frontend Git Ignore File
 # https://github.com/aarioai/rules/blob/main/config/fe.gitignore

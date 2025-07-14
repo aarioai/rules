@@ -1,6 +1,11 @@
 # Frontend Git Ignore File
 # https://github.com/aarioai/rules/blob/main/config/fe.gitignore
-# 2025-06-17
+# 2025-07-14
+
+# umi
+.umi
+.umi-production
+.umi-test
 
 # Logs
 logs
@@ -10,13 +15,15 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-dist
-dist-ssr
+/dist
+/dist-ssr
 *.local
 
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
+.history
+.temp/**
 *.suo
 *.ntvs*
 *.njsproj
@@ -27,7 +34,7 @@ dist-ssr
 # General Git Ignore File
 # https://github.com/aarioai/rules/blob/main/config/.gitignore
 # https://www.atlassian.com/git/tutorials/saving-changes/gitignore
-# 2025-06-17
+# 2025-07-14
 
 # .aa-env, .aa-update
 .aa-*
@@ -71,3 +78,6 @@ package-lock.json
 
 # Windows auto generated file
 Thumbs.db
+
+# js yarn
+yarn.lock

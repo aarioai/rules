@@ -1,17 +1,24 @@
-# Ant Design Pro
-# 2025-07-14
-build
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+**/node_modules
+# roadhog-api-doc ignore
+/src/utils/request-temp.js
+_roadhog-api-doc
+
 /coverage
+.idea
 *bak
+.vscode
+
+# visual studio code
 functions/*
 
 # screenshot
 screenshot
 .firebase
 
-# roadhog-api-doc ignore
-/src/utils/request-temp.js
-_roadhog-api-doc
+build
 
 # Frontend Git Ignore File
 # https://github.com/aarioai/rules/blob/main/config/fe.gitignore
@@ -44,6 +51,7 @@ lerna-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
 
 # General Git Ignore File
 # https://github.com/aarioai/rules/blob/main/config/.gitignore
